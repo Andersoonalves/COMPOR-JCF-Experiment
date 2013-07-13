@@ -13,7 +13,6 @@ public class CalculoImpostoRenda {
 		for (FontePagadora fontePagadora : fontes) {
 			soma += fontePagadora.getRendimentoRecebidos();
 		}
-		
 		return soma;
 	}	
 	
