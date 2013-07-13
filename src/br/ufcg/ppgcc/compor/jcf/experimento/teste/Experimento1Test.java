@@ -253,6 +253,7 @@ public class Experimento1Test {
 		assertEquals(1, titulares.size());
 		assertEquals(titular, titulares.get(0));
 	}
+	
 
 	private Endereco criarEnderecoPadrao() {
 		Endereco endereco = new Endereco();
