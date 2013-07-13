@@ -56,6 +56,26 @@ public class FachadaImpl implements FachadaExperimento{
 		return this.titular.listarDependentes (titular);
 	}
 
+	@Override
+	public void criarGastoDedutivel(Titular titular, Pessoa realizador,
+			GastoDedutivel gastoDedutivel) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public List<GastoDedutivel> listarGastosDedutiveis(Titular titular,
+			Pessoa realizador) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Resultado relatorioSimplificado(Titular titular) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
 	
 
 	

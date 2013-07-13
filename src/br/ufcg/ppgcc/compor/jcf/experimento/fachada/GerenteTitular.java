@@ -73,6 +73,7 @@ public class GerenteTitular {
 	}
 	
 	public Resultado declaracaoCompleta(Titular titular) {
+		
 		Resultado result = new Resultado();
 		
 		double recebido = calculoImposto.totalRecebido((mapFontes.get(titular)));	
