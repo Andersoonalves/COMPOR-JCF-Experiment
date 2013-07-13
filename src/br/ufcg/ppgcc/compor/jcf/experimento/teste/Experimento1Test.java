@@ -14,15 +14,16 @@ import br.ufcg.ppgcc.compor.jcf.experimento.fachada.FachadaExperimento;
 import br.ufcg.ppgcc.compor.jcf.experimento.fachada.FontePagadora;
 import br.ufcg.ppgcc.compor.jcf.experimento.fachada.Resultado;
 import br.ufcg.ppgcc.compor.jcf.experimento.fachada.Titular;
+import br.ufcg.ppgcc.compor.jcf.experimento.impl.FachadaImpl;
 
 public class Experimento1Test {
 
 	private FachadaExperimento fachada;
-
+	
 	@Before
 	public void iniciar() {
 		//Coloque sua Fachada aqui.
-		fachada = null;
+		fachada = new FachadaImpl();
 	}
 
 	@Test
